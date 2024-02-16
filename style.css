@@ -5,7 +5,11 @@
 }
 
 body {
-    padding: 50px;
+    margin: 10px;
+}
+
+ul {
+    margin: 10px;
 }
 
 li {
