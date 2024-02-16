@@ -11,6 +11,9 @@
     <ul>
         <li>
             <span>
+                Задание: получить главную страницу методом GET в протоколе HTTP 1.0
+            </span>
+            <span>
                 Request: <code>GET / HTTP/1.0</code>
             </span>
             <div>
@@ -19,7 +22,11 @@
         </li>
         <li>
             <span>
-                Request: <code></code>
+                Задание: получить внутреннюю страницу методом GET в протоколе HTTP 1.1
+            </span>
+            <span>
+                Request: <code>GET /web-2-task-1/ HTTP/1.1
+                    Host: u67423.kubsu-dev.ru</code>
             </span>
             <div>
                 <img src="screenshots/2.png" alt="2">
@@ -27,7 +34,11 @@
         </li>
         <li>
             <span>
-                Request: <code></code>
+                Задание: определить размер файла file.tar.gz, не скачивая его
+            </span>
+            <span>
+                Request: <code>HEAD /web-2-task-1/files/file.tar.gz HTTP/1.1
+                    Host: u67423.kubsu-dev.ru</code>
             </span>
             <div>
                 <img src="screenshots/3.png" alt="3">
@@ -35,7 +46,11 @@
         </li>
         <li>
             <span>
-                Request: <code></code>
+                Задание: определить медиатип ресурса /image.png
+            </span>
+            <span>
+                Request: <code>HEAD /web-2-task-1/files/image.png HTTP/1.1
+                    Host: u67423.kubsu-dev.ru</code>
             </span>
             <div>
                 <img src="screenshots/4.png" alt="4">
@@ -43,7 +58,15 @@
         </li>
         <li>
             <span>
-                Request: <code></code>
+                Задание: отправить комментарий на сервер по адресу /index.php
+            </span>
+            <span>
+                Request: <code>POST / HTTP/1.1
+                    Host: u67423.kubsu-dev.ru
+                    Content-Type: text/plain
+                    Content-Length: 20
+                    
+                    comment=Hello World!</code>
             </span>
             <div>
                 <img src="screenshots/5.png" alt="5">
@@ -51,7 +74,12 @@
         </li>
         <li>
             <span>
-                Request: <code></code>
+                Задание: получить первые 100 байт файла /file.tar.gz
+            </span>
+            <span>
+                Request: <code>GET /web-2-task-1/files/file.tar.gz HTTP/1.1
+                    Host: u67423.kubsu-dev.ru
+                    Range: bytes=0-99</code>
             </span>
             <div>
                 <img src="screenshots/6.png" alt="6">
@@ -59,7 +87,11 @@
         </li>
         <li>
             <span>
-                Request: <code></code>
+                Задание: определить кодировку ресурса /index.php
+            </span>
+            <span>
+                Request: <code>HEAD / HTTP/1.1
+                    Host: u67423.kubsu-dev.ru</code>
             </span>
             <div>
                 <img src="screenshots/7.png" alt="7">
